@@ -1,0 +1,59 @@
+#chucho{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: cursive;
+    margin: 5px;
+    padding: 5px;
+    border: solid;
+    border-color: darkviolet;
+    border-width: 5px;
+    border-radius: 20px;
+}
+@media (max-width: 600px) {
+    #chucho{
+        font-size: 15px;
+    }
+}
+@media (min-width: 600px) {
+    #chucho{
+        font-size: 25px;
+    }
+}
+.cama{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: cursive;
+    margin: 5px;
+    padding: 5px;
+    border-style: dashed;
+    border-color: darkviolet;
+    border-width: 5px;
+    border-radius: 20px;
+}
+@media (max-width: 600px) {
+    .cama{
+        font-size: 15px;
+    }
+}
+@media (min-width: 600px) {
+    .cama{
+        font-size: 25px;
+    }
+}
+.pelo{
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: cursive;
+    margin: 5px;
+    padding: 5px;
+}
+@media (max-width: 600px) {
+    .pelo{
+        font-size: 15px;
+    }
+}
+@media (min-width: 600px) {
+    .pelo{
+        font-size: 25px;
+    }
+}

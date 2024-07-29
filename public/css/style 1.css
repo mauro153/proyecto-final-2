@@ -1,0 +1,245 @@
+body{
+    background-color: rgb(0, 0, 0);
+    margin: 0px;
+    padding: 0px;
+}
+@media (max-width: 600px) {
+    body {
+        background-color: rgb(0, 0, 0);
+        margin: 0px;
+        padding: 0px;
+    }
+}
+@media (orientation: landscape) {
+    body{
+        background-color: rgb(0, 0, 0);
+        margin: 0px;
+        padding: 0px;
+    }
+}
+* {
+    box-sizing: border-box;
+}
+
+/*desde aca para ariva es inportante y los que estan en morado tambien son importante*/
+
+header{
+    padding: 60px;
+    text-align: center;
+    background-image: url(../imagenes/principio\ pagina.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+@media (max-width: 600px) {
+    header{
+        background-position: center;
+    }
+}
+@media (min-width: 600px) {
+    header{
+        background-position: center;
+    }
+}
+header div, #perro{
+    padding: 5px;
+    border-radius: 20px;
+}
+#perro{
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 20px;
+    font-family: cursive;
+    border-style: solid;
+    border-width: 10px;
+    margin: 5px
+}
+#perro{
+    background-color: rgba(54, 0, 0, 0.5);
+    padding: 5px;
+    border-color: rgba(255, 0, 0, 0.2);
+}
+@media (max-width: 600px) {
+    #perro{
+        font-size: 15px;
+    }
+}
+@media (min-width: 600px) {
+    #perro{
+        font-size: 25px;
+    }
+}
+.puerta{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(54, 0, 0);
+    position: sticky;
+    top: 0;
+    border-style: solid;
+    border-color: rgb(102, 0, 116);
+    margin: 5px;
+    border-width: 5px;
+}
+.puerta a{
+    color: rgb(196, 111, 0);
+    padding: 20px 23px;
+    font-size: 22px;
+    text-decoration: none;
+    text-align: center;
+}
+.puerta a:hover{
+    background-color: darkred;
+}
+@media (max-width: 600px) {
+    .puerta{
+        flex-direction: column;
+        position: unset;
+    }
+}   
+.celular{
+    display: flex;
+    flex-wrap: wrap;
+}
+aside{
+    flex-basis: 25%;
+    padding: 10px;
+    background-color: rgb(44, 44, 44);
+    text-align: center;
+}
+main{
+    flex-basis: 75%;
+    padding: 20px;
+    padding-left: 40px;
+    background-color: rgb(49, 49, 49);
+}
+@media (max-width: 600px) {
+    .celular{
+        flex-direction: column;
+    }
+}
+.capa{
+    color: rgb(255, 255, 255);
+}
+.botella{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    font-family: cursive;
+}
+.teclado{
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+@media (max-width: 600px) {
+    .teclado{
+        width: 60%;
+        height: auto;
+    }
+}
+main h2{
+    text-transform: uppercase;
+    margin-top: 10px;
+    color: rgb(0, 255, 0);
+    text-align: center;
+}
+main p{
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+main img{
+    width: 100%;
+    object-position: center;
+}
+.tapa{
+    font-size: 20px;
+    color: rgb(255, 0, 234);
+    padding: 10px;
+    font-family: cursive;
+    text-align: center;
+}
+.gato{
+    border-style: dashed;
+    border-width: 5px;
+    font-size: 20px;
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    border-color: rgba(192, 0, 0, 0.6);
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+}
+@media (max-width: 600px) {
+    .gato{
+        font-size: 15px;
+    }
+}
+@media (min-width: 600px) {
+    .gato{
+        font-size: 20px;
+    }
+}
+.pato{
+    border-style: dashed;
+    border-width: 5px;
+    font-size: 20px;
+    font-family: monospace;
+    color: rgb(255, 255, 255);
+    border-color: rgba(192, 0, 0, 0.6);
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+}
+.cuervo{
+    border-style: dashed;
+    border-width: 5px;
+    font-size: 20px;
+    font-family: monospace;
+    color: rgb(231, 231, 231);
+    border-color: rgba(29, 107, 10, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 20px;
+}
+.gorra{
+    max-width: 50%;
+    min-width: 50%;
+    object-fit: cover;
+}
+@media (max-width: 600px) {
+    .pato{
+        font-size: 15px;
+    }
+}
+@media (min-width: 600px) {
+    .pato{
+        font-size: 20px;
+    }
+}
+@media (max-width: 600px) {
+    .cuervo{
+        font-size: 15px;
+    }
+}
+@media (min-width: 600px) {
+    .cuervo{
+        font-size: 20px;
+    }
+}
+.silla{
+    object-fit: cover;
+    max-width: 35%;
+    min-width: 35%;
+}
+.silla, .gorra{
+    border-radius: 100px;
+}
+footer{
+    background-color: rgb(63, 63, 63);
+    color: rgb(247, 0, 0);
+    text-align: center;
+    padding: 5px;
+    font-size: 30px;
+}

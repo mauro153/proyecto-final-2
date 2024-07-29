@@ -1,0 +1,14 @@
+.navbar{
+    background-color: rgb(56, 56, 56) !important;
+    top: 0;
+    z-index: 1;
+}
+.h3{
+    background-color: rgb(48, 48, 48);
+    color: aliceblue;
+}
+@media (max-width:600px) {
+    .navbar-nav{
+        text-align: center;
+    }
+}
